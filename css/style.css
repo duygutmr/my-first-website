@@ -1,0 +1,305 @@
+*{
+
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background:white;
+    font-family:Arial, Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+}
+.tm-logo{
+    color:#e8491d;
+}
+
+.tm-container{
+   
+    margin:0px auto;
+    width: 80%;
+}
+.tm-header{
+    background:#35424a;
+    padding-bottom:30px;
+    height: 90px;
+    border-bottom:4px solid #e8491d;
+    float:left;
+    width:100%;
+    
+   
+}
+.tm-nav{
+    float:right;
+    padding:40px;
+}
+
+.tm-nav a:hover{
+    color:grey;
+    font-weight: bold;
+}
+.tm-nav ul li{
+display:inline;
+margin-top: 20px;
+}
+
+.tm-nav ul li a{
+    text-decoration: none;
+    color:white;
+    padding:30px 30px;
+    line-height:30px;
+}
+.tm-nav ul li a.active{
+    color:#e8491d;
+}
+
+.tm-baslik{
+    float:left;
+   line-height: 60px;
+   color: white;
+}
+
+.text-block{
+    position:absolute;
+    bottom: 200px;
+    right: 50px;
+    left:50px;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+.logo-alt{
+background: #35424a;
+height:40px;
+padding-bottom: 30px;
+font-size: 30px;
+color:white;
+padding-left:100px;
+padding-top:30px;
+float:left;
+width:60%;
+line-height: 50px;
+margin-left:20px;
+}
+
+input[type="text"]{
+   
+   padding:5px 5px;
+}
+
+input[type="submit"]{
+    background:Red;
+    padding: 7px 10px;
+    color:white;
+    margin:40px;
+    margin-left:0px;
+    border:none;
+}
+
+.logo-alt2{
+    background: #35424a;
+}
+
+
+
+.tm-article1{
+    width: 30%;
+    float: left;
+    padding: 30px;
+    text-align: center;
+  
+    
+
+}
+h2{
+   display: block;
+   font-weight: bold;
+   margin-top:20px;
+   
+
+}
+.quote1{
+    margin-bottom:15px;
+    margin-top:0
+}
+h3{
+    display:block;
+    font-weight: bold;
+}
+p{
+    margin-top:20px;
+}
+.tm-footer{ 
+   float:left;
+    width:100%;
+    padding: 20px 0px;
+    margin-top:20px;
+    color:white;
+    background: #e8491d;
+    text-align: center;
+    line-height:  50px;
+    font-size: 20px;
+}
+.cont{
+    width: 70%;
+    float: left;
+    padding: 0 20px;
+}
+.cont1{
+    padding: 20px;
+    float:right;
+    width: 30%;
+}
+
+
+.p1{
+    float:left;
+    color:white;
+    background: #35424a;
+    padding:20px;
+    
+}
+.paragraf{
+
+
+    float:right;
+    background: #35424a;
+    color:white;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.tm-container{
+max-width: 1000px;
+margin: 0px auto;
+width: 80%;
+}
+
+.metinler{
+    float:left;
+    padding:0 20px;
+    width:70%;
+   
+    
+
+}
+.p2{
+    padding:20px;
+    border:2px solid #cccccc;
+    background:#f4f4f4;
+}
+.p3{
+    padding: 20px;
+   border:2px solid #cccccc;
+   background:#f4f4f4;
+   margin-top:2px;
+   margin-bottom:2px;
+
+
+}
+.p4{
+    padding: 20px;
+    border:2px solid #cccccc;
+    background: #f4f4f4;
+}
+.side{
+width: 30%;
+float: right;
+color:white;
+padding:5px;
+background: #35424a;
+margin-top:30px;
+}
+
+.textarea{
+    width:100%;
+    
+}
+.text{
+    width:100%;
+    margin-bottom: 15px;
+}
+@media screen and (max-width:1024px){
+    .text-block{
+        margin-bottom: 700px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .text-block{
+        margin-bottom:250px;
+    }
+    .tm-nav{
+        padding:0px;
+        margin:10px 0;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .tm-header{
+        height:0%;
+    }
+    .tm-section {
+        width:100%;
+    }
+
+    input[type="submit"]{
+        margin:0;
+        margin-bottom:20px;
+    }
+    
+    .text-block{
+        text-align:center;
+        width:100%;
+        font-size: 20px;
+        padding: 0;
+        left:auto;
+        padding-left:85px;
+
+
+
+    } 
+    .logo-alt{
+        text-align:center;
+        font-size:20px;
+        padding:0;
+        font-size:90%;
+        margin-left:0px;
+        float:none;
+
+    }
+    .tm-article1{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+       
+
+    
+    .tm-nav{
+        padding:0;
+        margin:0;
+        width:100%;
+
+    }
+    .tm-nav ul li a{
+        width:100%;
+        float:left;
+        text-align: center;
+        padding: 0 0;
+    
+    }
+    .tm-baslik{
+        float:none;
+        text-align: center;
+     }
+     .tm-section img{
+        height:auto;
+    }
+}
